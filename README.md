@@ -11,7 +11,7 @@ The application of object detection algorithms are only limited to data. Once yo
 3. It searches for all the images ending with a .png extension in your test_images folders. 
 
 ```python 
-python test_model.py --im_dir=/path/to/test_images/ --outname=save_file.csv
+python test_model.py -- im_dir=/path/to/test_images/ -- outname=save_file.csv
 ```
 
 
