@@ -7,11 +7,11 @@ The application of object detection algorithms are only limited to data. Once yo
 ## Running the test_model.py
 
 1. The test_model.py file takes in your test images directory path as input argument.
-2. It saves the object coordinates in the image in a csv file and saves the output images too.
-3. It searches for all the images ending with a .png extension in your test_images folders. 
+2. It searches for all the images ending with a .png extension in your test_images folders.
+3. It saves the object coordinates in the image in a csv file and saves the output images. 
 
 ```python 
-python test_model.py -- im_dir=/path/to/test_images/ -- outname=save_file.csv
+python test_model.py --im_dir=/path/to/test_images/ --outname=save_file_name.csv
 ```
 
 
