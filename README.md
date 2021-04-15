@@ -2,7 +2,7 @@
 
 
 
-The application of object detection algorithms are only limited to data. Once you have enough data to train on, you can create an object detection algorithm to identify anything. In this project, I have implemented SSD with mobilenet trained on COCO dataset to identify volleyball in images. The dataset contains around 1300 images of a volleyball match and a csv file containing the coordinates of the volleyball. 
+The application of object detection algorithms are only limited to data. Once you have enough data to train on, you can create an object detection algorithm to detect an object within an image. In this project, I have implemented SSD with mobilenet architecture trained on MS-COCO dataset to detect volleyball in images. The dataset contains around 1300 images of a volleyball match and a csv file containing the coordinates of the volleyball. 
 
 To understand the tensorflow object detection API and how to use it to train the on your data, please refer [here](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
